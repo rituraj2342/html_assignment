@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+     *{
+            box-sizing:border-box;
+      }
+     body {
+        width:600px;
+            border:3px solid black;
+            margin:33px auto;
+           
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;}
+    /*.w3-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;}
+    .w3-table-all {
+    border: 1px solid #ccc;}
+    table.w3-table-all {
+    margin: 20px 0;}*/
+
+    .centre{
+        margin-left: 8%;
+        margin-right: auto;
+        width: 50%;
+    }
+  
+
+ 
+    </style>
+</head>
+<body>
+   <h2 ><a href="https://www.w3schools.com/" target="_blank">w3schools.com</a></h2>
+  
+    <h2>  <a href="https://www.w3schools.com/html/" target="_blank">HTML</a> 
+          <a href="https://www.w3schools.com/css/" target="_blank">CSS</a> 
+          <a href="https://www.w3schools.com/js/" target="_blank">JAVASCRIPT</a> 
+          <a href="https://www.w3schools.com/python/" target="_blank">PYTHON</a></h2>
+    <h1>HTML Introduction</h1>
+    <p>HTML is the standard markup language for creating Web pages.</p>
+    <ol>
+        <li>What is HTML</li>
+        <li>What is HTML element</li>
+        <li>Web Browsers</li>
+    </ol>
+    <h2>What is HTML ?</h2>
+    <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>HTML describes the structure of a Web pages</li>
+        <li>HTML consists of aeries of element</li>
+        <li>HTML elements tell browser how to display the content</li>
+        <li>HTML elements label peices of content such as "this is heading","this is a </br> 
+            paragraph,"this is a link",etc</li>
+    </ul>
+    <h2>What is HTML Element ?</h2>
+    <p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+    <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+        <span style="color:brown"><span style="color:mediumblue">&lt;</span>
+        tagname<span style="color:mediumblue">&gt;</span></span>Content goes here...
+        <span style="color:brown"><span style="color:mediumblue">&lt;</span>/tagname
+        <span style="color:mediumblue">&gt;</span></span>
+     </div>
+     <p>The HTML element is everything from the start tag to end tag:</p>
+     <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+        <span style="color:brown"><span style="color:mediumblue">&lt;<span style="color:brown">
+        h1</span>&gt;</span></span>My First Heading<span style="color:brown">
+            <span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span>
+        </div>
+        <div style="font-size:20px;padding:10px;margin-bottom:10px;">
+            <span style="color:brown"><span style="color:mediumblue">&lt;</span>p
+            <span style="color:mediumblue">&gt;</span></span>My first paragraph.<span style="color:brown">
+                <span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+         </div>
+         <table class="w3-table-all notranslate">
+            <tbody><tr>
+            <th>Start tag</th>
+            <th>Element content</th>
+            <th>End tag</th>
+            </tr>
+            <tr>
+            <td>&lt;h1&gt;</td>
+            <td>My First Heading</td>
+            <td>&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+            <td>&lt;p&gt;</td>
+            <td>My first paragraph.</td>
+            <td>&lt;/p&gt;</td>
+            </tr>
+            <tr>
+            <td>&lt;br&gt;</td>
+            <td><em>none</em></td>
+            <td><em>none</em></td>
+            </tr>
+            </tbody></table>
+    <h2>Web Browsers</h2>   
+    <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents 
+        and display them correctly.</p> 
+    <p>A browser does not display the HTML tags, but uses them to determine how to display the 
+        document:</p>   
+    <p class="centre"><img alt="View in Browser" 
+        src="https://www.w3schools.com/html/img_chrome.png" class="w3-image" width="500" height="250"></p>  
+    <section>
+        <h2>Submit a Review</h2>
+       
+        <form method="GET" action="p.php">
+            Name :<input type="text">
+            <input type ="radio"  /> Male 
+            <input type ="radio"  /> Female
+            <input type ="radio"  /> Other  
+            </form>
+        </section>
+        <label for="RATE"> Rate it</label>
+     <select name="myrate" id="Rate">
+         <option value="a">Very Good</option>
+         <option value="b"> Good</option>
+         <option value="a">Could be better</option>
+         </select>
+        </br>
+     <textarea placeholder="please add a review" cols=50 rows=10></textarea> </br>  
+    <input type="submit" value="Submit">
+</body>
+</html>
